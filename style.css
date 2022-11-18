@@ -1,0 +1,80 @@
+body {
+    background-color: bisque;
+}
+
+* {
+    color: rgb(198, 124, 33);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+hr {
+    border-top: 1px solid rgb(197, 160, 115);
+}
+
+a {
+    text-decoration: none;
+}
+
+#container {
+    text-align: center;
+}
+
+#header {
+    padding-bottom: 50px;
+}
+
+#content {
+    background-color: rgb(239, 193, 137);
+    box-shadow: 10px 10px;
+    width: 50%;
+    margin: auto;
+    transition: width .5s;
+}
+
+#content:hover {
+    width: 85%;
+}
+
+#avatar {
+    border-radius: 50%;
+    transition: box-shadow .3s;
+}
+
+#avatar:hover {
+    box-shadow: 0 0 50px rgb(215, 124, 4, .4); 
+}
+
+#footer {
+    padding: 50px;
+    padding-left: 40%;
+    position: absolute;
+}
+
+#github {
+    padding-right: 50px;
+    transition: width 0.5s, height 0.5s;
+}
+
+#github:hover {
+    width: 60px;
+    height: 60px;
+}
+
+#linkedin {
+    transition: width 0.5s, height 0.5s;
+}
+
+#linkedin:hover {
+    width: 60px;
+    height: 60px;
+}
+
+#gmail {
+    padding-left: 50px;
+    transition: width 0.5s, height 0.5s;
+}
+
+#gmail:hover {
+    width: 60px;
+    height: 60px;
+}
